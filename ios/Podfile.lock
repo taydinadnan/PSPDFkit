@@ -1,0 +1,30 @@
+PODS:
+  - Flutter (1.0.0)
+  - PSPDFKit (11.1.1):
+    - PSPDFKit/Core (= 11.1.1)
+  - PSPDFKit/Core (11.1.1)
+  - pspdfkit_flutter (3.0.3):
+    - Flutter
+    - PSPDFKit
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - PSPDFKit (from `https://customers.pspdfkit.com/pspdfkit-ios/latest.podspec`)
+  - pspdfkit_flutter (from `.symlinks/plugins/pspdfkit_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  PSPDFKit:
+    :podspec: https://customers.pspdfkit.com/pspdfkit-ios/latest.podspec
+  pspdfkit_flutter:
+    :path: ".symlinks/plugins/pspdfkit_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  PSPDFKit: d77f78cc893ed3b0fee1e4be746ebccb08e6d739
+  pspdfkit_flutter: 3b37ec43fc1374549beef697c4c7124255f19f33
+
+PODFILE CHECKSUM: f7d11e20240acc71d34a7ff1ad3067f3fc50c9a5
+
+COCOAPODS: 1.11.2
